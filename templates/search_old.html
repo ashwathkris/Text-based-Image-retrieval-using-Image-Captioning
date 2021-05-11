@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style >body{
+    background-color: lightgrey;
+    margin : 0px;
+}
+      h2{
+        font-family: "Lucida Console", Courier, monospace;
+        letter-spacing: 2px;
+        font-size: 30px;
+      }
+
+      .btn {
+      background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  width: 250px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+input[type=text] {
+  width: 60%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: {{image}};
+  background-position: 10px 10px; 
+  background-size: 20px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+    </style>
+</head>
+
+<body>
+  <center>
+    <div class="cont">
+      <h2>
+        SENT2IMG
+      </h2>
+      <br>
+    </div>
+
+    <h2>Search for an Image</h2>
+    <form method="POST" action="http://localhost:5000/search">
+      <input type="text" id="q" name="query" placeholder="Search.."><br><br>
+      <input type="submit" value='Submit' class="btn" />
+    </form>
+    <img src={{image}}>
+  </center>
+</body>
+
+</html>
