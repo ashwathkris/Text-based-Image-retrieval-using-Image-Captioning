@@ -1,0 +1,1 @@
+download the Flickr8k dataset and store all the images in this folder
