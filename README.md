@@ -1,4 +1,6 @@
-# APp
+## [Demo](https://drive.google.com/file/d/1ocgiXuJMIZt5jnyTM-gKvQha7tGb9Q9i/view?usp=drive_link)
+
+For a demonstration of the project, click [here](https://drive.google.com/file/d/1ocgiXuJMIZt5jnyTM-gKvQha7tGb9Q9i/view?usp=drive_link)
 
 # Application Setup and Execution
 
@@ -19,7 +21,3 @@
 ## Application Functionality
 
 Upon uploading images, the application generates captions and saves them along with the image name as a JSON object. Uploaded images are also stored in a `gallery` folder for future reference.
-
-## [Demo](https://drive.google.com/file/d/1ocgiXuJMIZt5jnyTM-gKvQha7tGb9Q9i/view?usp=drive_link)
-
-For a demonstration of the project, click [here](https://drive.google.com/file/d/1ocgiXuJMIZt5jnyTM-gKvQha7tGb9Q9i/view?usp=drive_link)
