@@ -43,15 +43,16 @@ input[type=text] {
     </style>
 </head>
 <body>
-    <center><h2>Welcome to SENT2IMG</h2>
-    <form method="POST" action="http://localhost:5000/renderupload">
-    <input type="submit" value='Upload an Image' class="btn" />
-	</form>
+    <center>
+      <h2>Welcome to SENT2IMG</h2>
+      <form method="POST" action="/renderupload">
+        <input type="submit" value='Upload an Image' class="btn" />
+      </form>
 
-    <form method="POST" action="http://localhost:5000/rendersearch">
-    <input type="submit" value='Search For an Image' class="btn" />
-    </center>
+      <form method="GET" action="/rendersearch">
+        <input type="submit" value="Search For an Image" class="btn" />
     </form>
+  </center>
 </body>
 
 </html>

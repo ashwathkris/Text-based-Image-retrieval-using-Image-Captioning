@@ -55,13 +55,13 @@ input[type=text] {
     <h2>Query: {{query}}</h2>
     <h2>Images Related to your search:
     </h2>
-    <img src="{{ url_for('static', filename = image1)}}" alt="">
+    <img src="{{ url_for('static', filename = image1)}}" alt="" style="height: 200px; width: auto;" >
     <br>
-    <img src="{{ url_for('static', filename = image2)}}" alt="">
+    <img src="{{ url_for('static', filename = image2)}}" alt="" style="height: 200px; width: auto;">
     <br>
-    <img src="{{ url_for('static', filename = image3)}}" alt="">
+    <img src="{{ url_for('static', filename = image3)}}" alt="" style="height: 200px; width: auto;">
     <br>
-    <form method="POST" action="http://localhost:5000/"></br>
+    <form method="POST" action="/"></br>
     <input type="submit" value='Go Back to Home Page' class="btn" />
     </form>
   </center>
